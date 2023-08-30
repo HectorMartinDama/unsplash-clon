@@ -1,0 +1,30 @@
+{
+	"name": "my-unsplash",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"test": "vitest",
+		"lint": "eslint ."
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/kit": "^1.20.4",
+		"eslint": "^8.28.0",
+		"eslint-plugin-svelte": "^2.30.0",
+		"sass": "^1.63.6",
+		"svelte": "^4.0.0",
+		"svelte-preprocess": "^5.0.4",
+		"vite": "^4.3.6",
+		"vitest": "^0.32.2"
+	},
+	"type": "module",
+	"dependencies": {
+		"@supabase/supabase-js": "^2.26.0",
+		"firebase": "^9.23.0",
+		"motion": "^10.16.2",
+		"svelte-french-toast": "^1.1.0"
+	}
+}
